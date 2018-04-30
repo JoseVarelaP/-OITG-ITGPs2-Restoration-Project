@@ -1,0 +1,79 @@
+<BGAnimation
+	UseScroller="1"
+	SecondsPerItem="0.3"
+	NumItemsToDraw="11"
+	RotationDegreesX="16"
+	RotationDegreesY="0"
+	RotationDegreesZ="0"
+	TranslateTerm0X="0"
+	TranslateTerm0Y="0"
+	TranslateTerm0Z="300"
+	TranslateTerm1X="0"
+	TranslateTerm1Y="0"
+	TranslateTerm1Z="0"
+	TranslateTerm2X="0"
+	TranslateTerm2Y="0"
+	TranslateTerm2Z="0"
+	ItemPaddingStart="5"
+	ItemPaddingEnd="5"
+	TransformFunction="function(self,offset,itemIndex,numItems) self:rotationx(16*offset) self:x(3*itemIndex*offset); self:y(offset*80) end"
+	>
+	<children>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner1" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner2" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner3" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner4" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner5" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner6" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner7" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="songbanner8" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+	</children>
+</BGAnimation>

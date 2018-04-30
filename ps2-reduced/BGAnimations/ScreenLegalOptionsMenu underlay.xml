@@ -1,0 +1,42 @@
+<BGAnimation UseScroller="1" SecondsPerItem="2" NumItemsToDraw="4" RotationDegreesX="0" RotationDegreesY="0"
+	RotationDegreesZ="0" TranslateTerm0X="0" TranslateTerm0Y="0" TranslateTerm0Z="0" TranslateTerm1X="0"
+	TranslateTerm1Y="168" TranslateTerm1Z="0" TranslateTerm2X="0" TranslateTerm2Y="0" TranslateTerm2Z="0"
+	ItemPaddingStart="2" ItemPaddingEnd="4"
+	OnCommand="y,SCREEN_CENTER_Y-168/2">
+	<children>
+		<BitmapText Text="@GetLegalText(  1, 10)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 11, 20)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 21, 30)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 31, 40)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 41, 50)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 51, 60)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 61, 70)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 71, 80)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 81, 90)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText( 91,100)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(101,110)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(111,120)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(121,130)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(131,140)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(141,150)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(151,160)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(161,170)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(171,180)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(181,190)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(191,200)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(201,210)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(211,220)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(221,230)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(231,240)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(241,250)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(251,260)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(261,270)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(271,280)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(281,290)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(291,300)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(301,310)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(311,320)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(321,330)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+		<BitmapText Text="@GetLegalText(331,340)" File="_eurostile normal" OnCommand="horizalign,left;vertalign,top;x,SCREEN_LEFT+50;zoom,0.7;shadowlength,0" OffCommand="linear,0.3;diffusealpha,0" />
+	</children>
+</BGAnimation>

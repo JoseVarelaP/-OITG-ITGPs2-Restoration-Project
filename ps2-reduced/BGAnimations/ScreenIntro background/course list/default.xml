@@ -1,0 +1,78 @@
+<BGAnimation UseScroller="1"
+	SecondsPerItem="0.3"
+	NumItemsToDraw="9"
+	RotationDegreesX="0"
+	RotationDegreesY="0"
+	RotationDegreesZ="0"
+	TranslateTerm0X="0"
+	TranslateTerm0Y="0"
+	TranslateTerm0Z="0"
+	TranslateTerm1X="0"
+	TranslateTerm1Y="86"
+	TranslateTerm1Z="0"
+	TranslateTerm2X="20"
+	TranslateTerm2Y="0"
+	TranslateTerm2Z="0"
+	ItemPaddingStart="45"
+	ItemPaddingEnd="5"
+	TransformFunction="function(self,offset,itemIndex,numItems) self:y(offset*86); self:x(itemIndex*numItems*offset) end"
+	>
+	<children>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner1" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner2" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner3" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner4" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner5" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner6" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner7" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+		<ActorFrame>
+			<children>
+				<AutoActor File="mask" OnCommand="zwrite,1;blend,noeffect" />
+				<AutoActor File="coursebanner8" OnCommand="zoomtowidth,270;zoomtoheight,80;ztest,1" />
+				<AutoActor File="frame" />
+			</children>
+		</ActorFrame>
+	</children>
+</BGAnimation>

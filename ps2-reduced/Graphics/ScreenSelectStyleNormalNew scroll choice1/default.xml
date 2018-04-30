@@ -1,0 +1,34 @@
+<ActorFrame
+	FOV="45"
+>
+	<children>
+		<Layer
+			File="@THEME:GetPath(EC_GRAPHICS,'','_style scroll frame')"
+		/>
+		<Layer
+			File="../ScreenSelectStyleNormalNew scroll choice1/highlight"
+			OnCommand="diffuse,0,1,0,1"
+		/>
+		<Layer
+			Type="ActorFrame"
+			OnCommand="y,20;zoom,1.8;wag;EffectMagnitude,0,10,0"
+		>
+			<children>
+				<Layer
+					File="../_platform home single"
+					OnCommand="rotationx,60"
+				/>
+			</children>
+		</Layer>
+		<Layer
+			File="title"
+			OnCommand="y,-120;stopeffect;shadowlength,4;zoom,1.1"
+			GainFocusCommand="stopeffect;glowshift;EffectColor1,1,1,1,-0.3;EffectColor2,1,1,1,0.5"
+		/>
+		<Layer
+			Font="_eurostile normal"
+			Text="One Player using 4 Panels"
+			OnCommand="y,-80;shadowlength,2;zoom,.7"
+		/>
+	</children>
+</ActorFrame>

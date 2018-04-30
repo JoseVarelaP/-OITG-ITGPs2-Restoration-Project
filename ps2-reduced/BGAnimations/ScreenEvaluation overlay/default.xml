@@ -1,0 +1,36 @@
+<ActorFrame>
+	<children>
+		<Layer
+			Condition="GAMESTATE:IsPlayerEnabled(1)"
+			OnCommand="x,SCREEN_CENTER_X-230;y,SCREEN_CENTER_Y-125;addx,-SCREEN_WIDTH/2;sleep,3;decelerate,0.3;addx,+SCREEN_WIDTH/2"
+			OffCommand="accelerate,0.3;addx,-SCREEN_WIDTH/2"
+			File="../../Graphics/_name p1"
+		/>
+
+		<Layer
+			Condition="GAMESTATE:IsPlayerEnabled(2)"
+			OnCommand="x,SCREEN_CENTER_X+230;y,SCREEN_CENTER_Y-125;addx,+SCREEN_WIDTH/2;sleep,3;decelerate,0.3;addx,-SCREEN_WIDTH/2"
+			OffCommand="accelerate,0.3;addx,+SCREEN_WIDTH/2"
+			File="../../Graphics/_name p2"
+		/>
+
+		<Layer
+			Type="ActorFrame"
+			OnCommand='@"x,SCREEN_CENTER_X;y,SCREEN_BOTTOM-61;" .. GetUnlockCommand()'
+			>
+			<children>
+				<BitmapText
+					Text="text"
+					File="Common Normal"
+
+					UnlockSongCommand="settext,Unlocked a new song!"
+					UnlockCourseCommand="settext,Unlocked a new course!"
+					UnlockModifierCommand="settext,Unlocked a new modifier!"
+					OnCommand="ZoomX,0;sleep,1.0;ZoomY,6;BounceEnd,.3;Zoom,1;sleep,1.6;playcommand,Off"
+					OffCommand="Accelerate,.2;ZoomX,2;ZoomY,0;DiffuseAlpha,0"
+					NoUnlockCommand="hidden,1"
+				/>
+			</children>
+		</Layer>
+	</children>
+</ActorFrame>
