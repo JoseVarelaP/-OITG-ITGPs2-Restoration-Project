@@ -1,7 +1,7 @@
 <ActorFrame>
 	<children>
 		<BitmapText
-			Text="MAIN MENU"
+			Text="@THEME:GetMetric('ScreenTitleMenu','HeaderText')"
 			File="_eurostile blue glow"
 			InitCommand="%function(self) self:shadowlength(4); self:x(self:GetWidth()/2) end"
 			OnCommand=""
