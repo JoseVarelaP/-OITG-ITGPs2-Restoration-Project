@@ -1,0 +1,34 @@
+<ActorFrame><children>
+	<Layer Font="Common Normal" Text="Help" />
+
+	<!-- Button Layouts -->
+	<Layer Type="ActorFrame" OnCommand="zoom,0.6"><children>
+		<Layer Font="Common Normal" Text="&MENUUP;&MENUDOWN;:" OnCommand="y,70;x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="Hold &AUX2; and press &MENUUP;&MENUDOWN;:" OnCommand="y,70+(35*1);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="Hold &AUX1; and press &MENUUP;&MENUDOWN;:" OnCommand="y,70+(35*2);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="&MENULEFT; &MENURIGHT;:" OnCommand="y,70+(35*3);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="&AUX6;:" OnCommand="y,70+(35*4);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="&START;:" OnCommand="y,70+(35*5);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="&AUX5;:" OnCommand="y,70+(35*6);x,-410;horizalign,left" />
+
+		<Layer Font="Common Normal" Text="SELECT button:" OnCommand="y,70+(35*7);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="START button, &BACK;:" OnCommand="y,70+(35*8);x,-410;horizalign,left" />
+		<Layer Font="Common Normal" Text="START button in play:" OnCommand="y,70+(35*9);x,-410;horizalign,left" />
+	</children></Layer>
+
+	<!-- Button Actions -->
+	<Layer Type="ActorFrame" OnCommand="zoom,0.6"><children>
+		<Layer Font="Common Normal" Text="change current beat" OnCommand="y,70;x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="jump one measure" OnCommand="y,70+(35*1);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="jump to beginning/end" OnCommand="y,70+(35*2);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="decrease/increase step spacing" OnCommand="y,70+(35*3);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="play selection" OnCommand="y,70+(35*4);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="play current beat to end" OnCommand="y,70+(35*5);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="toggle area marker" OnCommand="y,70+(35*6);x,20;horizalign,left" />
+
+		<Layer Font="Common Normal" Text="show Help" OnCommand="y,70+(35*7);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="show Practice Menu" OnCommand="y,70+(35*8);x,20;horizalign,left" />
+		<Layer Font="Common Normal" Text="exit Play" OnCommand="y,70+(35*9);x,20;horizalign,left" />
+	</children></Layer>
+
+</children></ActorFrame>
