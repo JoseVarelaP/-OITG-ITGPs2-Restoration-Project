@@ -3,7 +3,7 @@
 >
 	<children>
 		<Layer
-			File="@THEME:GetPath(ELEMENT_CATEGORY_GRAPHICS,'','_style scroll frame')"
+			File="@THEME:GetPath(EC_GRAPHICS,'','_style scroll frame')"
 		/>
 		<Layer
 			File="../ScreenSelectStyleNormalNew scroll choice1/highlight"

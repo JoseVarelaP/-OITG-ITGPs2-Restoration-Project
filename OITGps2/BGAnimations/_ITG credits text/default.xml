@@ -7,6 +7,19 @@
 	TransformFunction="function(self,offset,itemIndex,numItems) self:y(offset*24); end"
 >
 	<children>
+		<Layer Type="BitmapText" Text="In The Groove PS2::Conversion Project" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#76B1D5;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Original Idea" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#76B1D5;ztest,1" />
+		<Layer Type="BitmapText" Text="nick.n" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Programming/Graphic Asisstance" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#76B1D5;ztest,1" />
+		<Layer Type="BitmapText" Text="Jose_Varela" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="nick.n" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Special Thanks" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#76B1D5;ztest,1" />
+		<Layer Type="BitmapText" Text="vyral for being there sitanding" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
 		<Layer Type="AutoActor" File="roxor" OnCommand="shadowlength,4;ztest,1" />
 		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
 		<Layer Type="BitmapText" Text="" File="_eurostile normal" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
