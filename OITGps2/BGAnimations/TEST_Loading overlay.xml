@@ -1,0 +1,22 @@
+<ActorFrame>
+	<children>
+		<BitmapText
+			Text="@THEME:GetMetric('ScreenPS2Memcard','CheckMemCardText')"
+			File="Common Normal"
+			OnCommand="@'x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,0.8;sleep,'.. math.random(2,3.5)..';diffusealpha,0;queuemessage,SaveSuccess'"
+		/>
+		<BitmapText
+			Text="@THEME:GetMetric('ScreenPS2Memcard','ExitSuccessfulLoadText')"
+			File="Common Normal"
+			OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,0.8;diffusealpha,0;"
+			SaveSuccessMessageCommand="diffusealpha,1"
+		/>
+		<Layer Type="Quad"
+			OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoomto,SCREEN_WIDTH+3,SCREEN_HEIGHT+3;diffuse,0,0,0,0;"
+			SaveSuccessMessageCommand="sleep,1.5;linear,0.3;diffusealpha,1;queuemessage,SendToNextScreen"
+			SendToNextScreenMessageCommand="%function(self)
+			SCREENMAN:SetNewScreen('ScreenPublisher')
+			end"
+		/>
+	</children>
+</ActorFrame>
